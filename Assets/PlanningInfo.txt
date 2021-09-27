@@ -1,0 +1,63 @@
+BrainStorm- Adventure Game Jam
+Reference = Squids Game, Stanley Parable
+Title = Used
+
+Eurydice: Female who was left in the underworld
+Prison Camp: Prisoner escaping a prison camp
+Child Prison: Assume the role of a child stuck in a facility, testing you for abilities (Suppresed through "Candies")
+
+
+Roles: Player, Guard, Leader
+Player Role: Prisoner
+Goal: Escape
+
+Elements of an Adventure Game:
+	-Interactive Story
+	-Assumes role of a protagonist
+	-Exploration
+	-Problem/Puzzle Solving
+	-Gathering /Using Items
+	-Dialogue
+
+Scenes:
+	Player Room, Contains information such as rules
+	Lounge (Lunch room), Interact with variouse NPCS, to gain information, or resources
+	Halls  (Traffic AI), Guard Ai's to keep you on track
+	Testing Room, Place where your abilities are tested (Drawing, identifiying ink blots, calculations)
+	Vents, that go throughout the facility, can be used for escape
+
+Player Abilities:
+	Abilities haven't awoken
+	time manipulation, prolonged usage hurts the player
+	health lose due to time manipulation abuse does not return, capped at 10%
+
+End Conditions:
+	Wandering without permission (caught)
+	Caught with contraband
+	Caught in a vent
+	Abilities used infront of guards, or scienists
+	
+	
+Lore:
+	Normal World, rare condition where kds exhibit abilties
+	Unknown to human world, controled by the goverment (Federation)
+	Federation utilizies a child to find others, you were found and taken from your family
+	their memories manipulated (probably using the abilities of another child).
+	
+	
+	Colors {Danger Level} = Green = Safe, Yellow = Mild, Orange = KOS
+
+Systems:
+	First Person, Character Controller
+	Inspection (Inspecting items, iteracting, picking up)
+	Inventory (List)
+	
+	Traffic System, Ai to form a line and go here
+	Detection System, If ai sees you can you be there? if not they shoot
+	Out of line, tell you to get back in (Voice cue)
+	
+	NPC Dialogue system, talking to npcs for information
+	
+
+Credit:
+	Character - "Dark Psychic Kid" (https://skfb.ly/6y977) by sebasxpm is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
